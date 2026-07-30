@@ -1,19 +1,54 @@
 aid: apex
-name: Apex
-description: 'Apex is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment
-  pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apex.png
+name: Apex (Apex Security)
+description: 'Apex Security was an AI security startup founded in 2023 in Tel Aviv by Matan Derman (CEO)
+  and Tomer Avni (CPO), backed by Sequoia Capital, Index Ventures and angel investors including Sam Altman.
+  Its platform gave enterprises visibility into generative-AI and LLM usage — public tools like ChatGPT and
+  Gemini, Microsoft Copilot, and in-house AI applications — then let them define policy, detect violations
+  and shadow AI, and respond to attacks across the AI attack surface. Tenable announced its intent to acquire
+  Apex on 2025-05-29 and closed the acquisition in June 2025 for approximately $47.8M; the technology was
+  folded into the Tenable One exposure management platform and now ships as Tenable One AI Exposure. Apex no
+  longer operates as an independent company: the apexhq.ai domain has lapsed and was re-registered by an
+  unrelated party on 2026-05-13, and now serves a Namecheap parking page. There is no Apex developer portal,
+  documentation, or public API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/apex/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: Tenable Holdings, Inc.
+x-acquired-announced: '2025-05-29'
+x-acquired-closed: '2025-06'
+x-successor-product: Tenable One AI Exposure
+x-successor-url: https://www.tenable.com/products/ai-exposure
+x-defunct-domain: apexhq.ai
+x-defunct-domain-note: 'Lapsed after the Tenable acquisition; re-registered 2026-05-13 by an unrelated party
+  and now serving a Namecheap parking page (HTTP 200, no company content). The apex root domain does not
+  resolve to a live host; www.apexhq.ai returns the parking page and all subpaths 404.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Security
+- Artificial Intelligence
+- AI Security
+- LLM Security
+- Exposure Management
+- Acquired
+- Israel
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +56,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://apexhq.ai
+- type: Acquisition
+  url: https://www.tenable.com/press-releases/tenable-announces-intent-to-acquire-apex-security-to-expand-exposure-management-across-the-ai-attack-surface
+- type: SuccessorProduct
+  url: https://www.tenable.com/products/ai-exposure
+- type: InvestorProfile
+  url: https://www.indexventures.com/companies/apex/
+x-enrichment:
+  date: '2026-07-19'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Second pass re-verified the first and found nothing new. Company is defunct/acquired: Tenable
+    announced intent 2025-05-29 and closed June 2025; technology now ships as Tenable One AI Exposure.
+    Re-probed 2026-07-19: apexhq.ai A=162.255.119.26 only, and docs./developer./api.apexhq.ai have NO DNS
+    records at all, so no API host exists. www.apexhq.ai serves a Namecheap parking page confirming the
+    domain was re-registered by an unrelated party on 2026-05-13. Because the domain is no longer controlled
+    by Apex, any content harvested from it would be MISATTRIBUTED to this company — a second, independent
+    reason to write zero artifacts here beyond the absent API surface. No developer portal, docs, OpenAPI,
+    packages, well-known, or event surface exists to enrich. Any successor API surface belongs in
+    all/tenable/, not this repo. No artifacts written by design — writing any would be fabrication.'
