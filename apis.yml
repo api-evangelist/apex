@@ -37,7 +37,7 @@ x-defunct-domain: apexhq.ai
 x-defunct-domain-note: 'Lapsed after the Tenable acquisition; re-registered 2026-05-13 by an unrelated party
   and now serving a Namecheap parking page (HTTP 200, no company content). The apex root domain does not
   resolve to a live host; www.apexhq.ai returns the parking page and all subpaths 404.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
