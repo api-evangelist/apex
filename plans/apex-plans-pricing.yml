@@ -1,0 +1,119 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.tenable.com/products/tenable-one/pricing
+sources:
+- https://www.tenable.com/products/tenable-one/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Identify and prioritize vulnerabilities based on risk to your business. Managed on premises.
+  managed_tier: Tenable One Foundation
+published: true
+note: Tenable One platform packages are quote-only; numeric prices appear in embedded buy modals for Tenable
+  One Vulnerability Management, Web App Scanning, and Nessus Professional/Expert licenses plus support/training
+  add-ons. Nessus is a licensed self-installed scanner alongside cloud platform offerings.
+plan_count: 15
+currency: USD
+plans:
+- name: Tenable One Foundation
+  price_text: Request a quote
+  period: none
+  included_quota: Vulnerability management, web application security, OT & IoT security, attack surface
+    management, AI discovery, cloud workload protection
+- name: Tenable One Advanced
+  price_text: Request a quote
+  period: none
+  included_quota: Adds risk measurement, orchestrated remediation, attack path analysis, holistic cloud
+    security
+- name: Tenable One Vulnerability Management - 1 Year (100 assets)
+  price_text: $3,500
+  price: 3500
+  currency: USD
+  period: year
+  unit: 100 assets
+  included_quota: Includes Tenable One Web App Scanning trial
+- name: Tenable One Vulnerability Management - 2 Years
+  price_text: $6,825
+  price: 6825
+  currency: USD
+  period: one-time
+  unit: 100 assets / 2 years
+- name: Tenable One Vulnerability Management - 3 Years
+  price_text: $9,975
+  price: 9975
+  currency: USD
+  period: one-time
+  unit: 100 assets / 3 years
+- name: Tenable One Web App Scanning (5 FQDNs)
+  price_text: $3,578
+  price: 3578
+  currency: USD
+  period: year
+  unit: 5 FQDNs
+- name: Nessus Professional - 1 Year
+  price_text: $4,790
+  price: 4790
+  currency: USD
+  period: year
+  unit: license
+- name: Nessus Professional - 2 Years
+  price_text: $9,330.95
+  price: 9330.95
+  currency: USD
+  period: one-time
+  unit: 2-year license
+- name: Nessus Professional - 3 Years
+  price_text: $13,637.54
+  price: 13637.54
+  currency: USD
+  period: one-time
+  unit: 3-year license
+- name: Nessus Expert - 1 Year
+  price_text: $6,790
+  price: 6790
+  currency: USD
+  period: year
+  unit: license
+- name: Nessus Expert - 2 Years
+  price_text: $13,208.13
+  price: 13208.13
+  currency: USD
+  period: one-time
+  unit: 2-year license
+- name: Nessus Expert - 3 Years
+  price_text: $19,304.19
+  price: 19304.19
+  currency: USD
+  period: one-time
+  unit: 3-year license
+- name: Advanced Support
+  price_text: $400
+  price: 400
+  currency: USD
+  period: year
+  unit: 24x365 support
+  included_quota: Phone, email, community, and chat support
+- name: On-Demand Training (Nessus Fundamentals)
+  price_text: $275
+  price: 275
+  currency: USD
+  period: year
+  unit: 1 person
+- name: Nessus Fundamentals + Nessus Advanced
+  price_text: $385
+  price: 385
+  currency: USD
+  period: year
+  unit: 1 person
+rate_limit_statements:
+- 'Initial Response Time P1-Critical: < 2 hr P2-High: < 4 hr P3-Medium: < 12 hr P4-Informational: < 24
+  hr'
+- Phone support 24 hours a day, 365 days a year, available for up to ten (10) named support contacts.
