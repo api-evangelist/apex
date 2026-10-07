@@ -67,6 +67,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.tenable.com/products/tenable-one/pricing
+- type: Plans
+  url: plans/apex-plans-pricing.yml
 - type: Website
   url: https://www.tenable.com/
 - type: Acquisition
